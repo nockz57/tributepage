@@ -153,16 +153,6 @@ li a {
 	height: 100%;
 }
 
-footer {
-	height: 50px;
-	display: grid;
-	flex-direction: row;
-	justify-content: center;
-	align-content: center;
-	text-align: center;
-	background: #000;
-	
-}
 
 #about {
 	display: grid;
@@ -177,10 +167,31 @@ footer {
 #about-img img {
 
 }
+#my-story h1{
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 7px;
+}
 
-.footer {
-	color: #fff;	
-	
+#music {
+	position: relative;
+}
+
+.music-grid {
+	display: grid;
+}
+
+.album {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+
+.thumbnail {
+	float: left;
+	overflow: hidden;
+	position: relative;
+
 }
 
 /*Buttons*/
@@ -196,4 +207,20 @@ footer {
 
 .btn a {
 
+}
+
+
+footer {
+	height: 50px;
+	display: grid;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	background: #000;
+	
+}
+.footer {
+	color: #fff;	
+	
 }
